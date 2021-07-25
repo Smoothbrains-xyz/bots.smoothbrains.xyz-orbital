@@ -1,0 +1,1 @@
+![](https://cdn.discordapp.com/avatars/859434827115790386/ad3a6ea63c6d4f134eaaa07ab07cc3b4.webp?size=1024) [Orbital](https://github.com/Smoothbrains-xyz/Orbital) is an open-source astronomy-oriented bot with tons of extra features!
