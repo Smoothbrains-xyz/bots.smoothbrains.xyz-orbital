@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "orbital-dot-smoothbrains-dot-xyz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smoothbrains-xyz/orbital-dot-smoothbrains-dot-xyz.git"
+  },
+  "author": "",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Smoothbrains-xyz/orbital-dot-smoothbrains-dot-xyz/issues"
+  },
+  "homepage": "https://github.com/Smoothbrains-xyz/orbital-dot-smoothbrains-dot-xyz#readme",
+  "description": ""
+}
