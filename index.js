@@ -18,10 +18,6 @@ app.get("/static", async (req, res) => {
   return res.send(__dirname + "/static");
 })
 
-app.get("/favicon.ico", async (req, res) => {
-  return res.sendFile(__dirname + "/static/favicon.ico");
-})
-
 app.listen(port, () => {
   console.log(`Running on port ${port}!`);
 });
