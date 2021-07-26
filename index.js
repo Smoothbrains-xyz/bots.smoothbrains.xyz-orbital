@@ -22,6 +22,6 @@ app.get("/favicon.ico", async (req, res) => {
   return res.sendFile(__dirname + "/static/favicon.ico");
 })
 
-app.listen(8000, () => {
-  console.log("Running on port 8000!");
+app.listen(port, () => {
+  console.log(`Running on port ${port}!`);
 });
