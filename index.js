@@ -12,10 +12,6 @@ app.set('view engine', 'pug');
 
 // Remove once there's actually a homepage
 app.get("/", async (req, res) => {
-  return res.redirect('/orbital');
-});
-
-app.get("/orbital", async (req, res) => {
   return res.render('index');
 });
 
