@@ -1,6 +1,5 @@
-# Orbital Bot Dashboard
+# Orbital Bot Homepage
 
-
-## Title1
-
-Add things here as nessesary.
+## Features:
+- About Page
+- Contains hyperlinks at top to dashboard and premium pages
