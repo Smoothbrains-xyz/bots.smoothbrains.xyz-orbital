@@ -1,18 +1,20 @@
 doctype html
 include partials/head
 include partials/navbar
+include partials/footer
 
-+head("Home")
-  
-body.bg-dark.text-light
-  div(style="position: absolute; width: 100%; height: 100%; z-index: -1;")#particles-js
-  +navbar("home")
-  div.container.w-100.pt-3
-    div.row.align-items-lg-center.mt-3
-      div(data-aos="fade-left").col-8.mx-auto.col-md-4.order-md-1.col-lg-4
-        img(src="/static/logo.png").rounded.img-fluid.img-thumbnail.mb-3.mb-md-0
-      div(data-aos="fade-right")#description-text.col-md-8.order-md-2.col-lg-8.text-center.text-md-start
-        h1.mb-3 What is Orbital?
-        p.lead.text-muted.mb-4 #[strong Orbital] is an open-source astronomy-oriented Discord bot with a plethora of additional useful perks and utilities! With many features to come and an active development team, feedback for improvement is always welcome!
+html
+  +head("Home")
+  body.bg-dark.text-light
+    div(style="position: absolute; width: 100%; height: 100%; z-index: -1;")#particles-js
+    +navbar("home")
+    div.container.w-100.pt-3
+      div.row.align-items-lg-center.mt-3
+        div(data-aos="fade-left").col-8.mx-auto.col-md-4.order-md-1.col-lg-4
+          img(src="/static/logo.png").rounded.img-fluid.img-thumbnail.mb-3.mb-md-0
+        div(data-aos="fade-right")#description-text.col-md-8.order-md-2.col-lg-8.text-center.text-md-start
+          h1.mb-3 What is Orbital?
+          p.lead.text-muted.mb-4 #[strong Orbital] is an open-source astronomy-oriented Discord bot with a plethora of additional useful perks and utilities! With many features to come and an active development team, feedback for improvement is always welcome!
+  +footer
   include partials/aos
   include partials/particles
