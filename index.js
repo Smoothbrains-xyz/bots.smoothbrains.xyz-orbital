@@ -7,6 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/static', express.static(__dirname + "/static"));
 
 const port = process.env.PORT || 8000;
+const host = 'http://localhost:8000/'
 
 app.set('view engine', 'pug');
 
@@ -20,5 +21,5 @@ app.get("/static", async (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Running on port ${port}!`);
+  console.log(`Running on ${host}, Port ${port}`);
 });
